@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./screenshots/banner.png" width="6" alt="Automatic Face Attendance System Banner">
+  Automatic Face Attendance System Banner
 </p>
 
 <h1 align="center">Automatic Face Attendance System</h1>
