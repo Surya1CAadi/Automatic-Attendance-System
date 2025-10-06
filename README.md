@@ -19,6 +19,7 @@
 ---
 
 ## 📑 Table of Contents
+
 - [Features](#features)
 - [Project Structure](#project-structure)
 - [Installation](#installation)
@@ -33,19 +34,18 @@
 
 ## 🚀 Features
 
-- **Raspberry Pi Compatible:** Lightweight, portable, and cost-effective. Works perfectly on Raspberry Pi 4 Model B.  
-- **Face Recognition using dlib (128D Facial Features):** High accuracy, privacy-focused (no cloud storage).  
-- **Automatic Attendance Marking:** Attendance saved in `.xls` files course-wise with timestamps.  
-- **Student Registration UI:** Capture multiple face angles and store them locally.  
-- **Course-Wise Attendance Management:** Create and manage separate XLS files for each course.  
-- **Email Attendance Files:** Directly send attendance reports via email without manual transfer.  
-- **Voice Announcements:** Announces registration numbers of present students for manual verification.  
-- **Auto-Deletion of Images:** Enhances privacy by deleting images after feature extraction.  
-- **Basic GUI:** Tkinter-based, suitable for non-technical users.  
+- **Raspberry Pi Compatible:** Lightweight, portable, and cost-effective. Works perfectly on Raspberry Pi 4 Model B.
+- **Face Recognition using dlib (128D Facial Features):** High accuracy, privacy-focused (no cloud storage).
+- **Automatic Attendance Marking:** Attendance saved in `.xls` files course-wise with timestamps.
+- **Student Registration UI:** Capture multiple face angles and store them locally.
+- **Course-Wise Attendance Management:** Create and manage separate XLS files for each course.
+- **Email Attendance Files:** Directly send attendance reports via email without manual transfer.
+- **Voice Announcements:** Announces registration numbers of present students for manual verification.
+- **Auto-Deletion of Images:** Enhances privacy by deleting images after feature extraction.
+- **Basic GUI:** Tkinter-based, suitable for non-technical users.
 - **Offline First:** Fully operational without internet (except for email sending).
 
 ---
-
 
 ## Project Structure
 
@@ -86,12 +86,14 @@ automatic_attendance_system/
 ## Installation
 
 1. Clone the repository
+
    ```bash
    git clone https://github.com/your-username/automatic_attendance_system.git
    cd automatic_attendance_system
    ```
 
 2. Install the dependencies
+
    ```bash
    pip install -r requirements.txt
    ```
@@ -103,6 +105,7 @@ automatic_attendance_system/
 ## Usage
 
 1. Run the Main Application
+
    ```bash
    python main.py
    ```
@@ -113,44 +116,61 @@ automatic_attendance_system/
    - Send Attendance Report: Email attendance file to the specified address.
 
 ---
+
 🖼️ Screenshots
+
+<p align="center">
 🏠 Home Page
-<img src="./screenshots/home_page.png" width="600">
+<img src="./screenshots/home_page.png" width="600"><br>
+</p>
+<p align="center">
 📋 Main Page
-<img src="./screenshots/main_page.png" width="600">
+<img src="./screenshots/main_page.png" width="600"><br>
+</p>
+<p align="center">
 🔐 Reset Password
-<img src="./screenshots/reset_password.png" width="600">
+<img src="./screenshots/reset_password.png" width="600"><br>
+</p>
+<p align="center">
 🧑‍🎓 Register Student
-<img src="./screenshots/register_student.png" width="600"> <img src="./screenshots/student_register_image.png" width="600">
+<img src="./screenshots/register_student.png" width="600"> <br><img src="./screenshots/student_register_image.png" width="600"><br>
+</p>
+<p align="center">
 ✅ Attendance Taking
-<img src="./screenshots/attendance_page.png" width="600">
+<img src="./screenshots/attendance_page.png" width="600"><br>
+</p>
+<p align="center">
 🧾 Creating Course
-<img src="./screenshots/create_course.png" width="600">
+<img src="./screenshots/create_course.png" width="600"><br>
+</p>
+<p align="center">
 📧 Sending Mail
-<img src="./screenshots/sending_mail.png" width="600">
+<img src="./screenshots/sending_mail.png" width="600"><br>
+</p>
 
 ---
+
 🔐 Environment Variables (.env)
 
-| Variable            | Description                          |
-|---------------------|--------------------------------------|
-| EMAIL_SENDER         | Your Gmail/SMTP email address        |
-| EMAIL_PASSWORD       | App-specific password for Gmail     |
-| SMTP_SERVER          | SMTP server (e.g., smtp.gmail.com)   |
-| SMTP_PORT            | SMTP port (e.g., 587)                |
+| Variable       | Description                        |
+| -------------- | ---------------------------------- |
+| EMAIL_SENDER   | Your Gmail/SMTP email address      |
+| EMAIL_PASSWORD | App-specific password for Gmail    |
+| SMTP_SERVER    | SMTP server (e.g., smtp.gmail.com) |
+| SMTP_PORT      | SMTP port (e.g., 587)              |
 
 ## Unique Highlights
 
-| Feature                          | Our System | Biometric Devices | RFID | Cloud Face Apps |
-|-----------------------------------|------------|-------------------|------|-----------------|
-| Touchless Face-Based Attendance  | ✅          | ❌                 | ✅    | ✅               |
-| Offline Full Functionality        | ✅          | ✅                 | ✅    | ❌               |
-| Course-wise XLS Generation        | ✅          | ❌                 | ❌    | Some            |
-| Voice Announcement                | ✅          | ❌                 | ❌    | ❌               |
-| Secure Local Storage              | ✅          | ✅                 | ✅    | ❌               |
-| Real-Time Email Reporting         | ✅          | Manual            | Manual| ✅               |
-| Auto-Deletion of Student Images   | ✅          | N/A               | N/A  | ❌               |
-| Proxy Prevention (Anti-fraud)     | ✅          | ✅                 | N/A  | N/A             |
+| Feature                         | Our System | Biometric Devices | RFID   | Cloud Face Apps |
+| ------------------------------- | ---------- | ----------------- | ------ | --------------- |
+| Touchless Face-Based Attendance | ✅         | ❌                | ✅     | ✅              |
+| Offline Full Functionality      | ✅         | ✅                | ✅     | ❌              |
+| Course-wise XLS Generation      | ✅         | ❌                | ❌     | Some            |
+| Voice Announcement              | ✅         | ❌                | ❌     | ❌              |
+| Secure Local Storage            | ✅         | ✅                | ✅     | ❌              |
+| Real-Time Email Reporting       | ✅         | Manual            | Manual | ✅              |
+| Auto-Deletion of Student Images | ✅         | N/A               | N/A    | ❌              |
+| Proxy Prevention (Anti-fraud)   | ✅         | ✅                | N/A    | N/A             |
 
 ## Contributing
 
@@ -162,4 +182,5 @@ Feel free to open an Issue or submit a Pull Request.
 This project is licensed under the MIT License.
 
 ---
+
 <p align="center"> Made with ❤️ using Python, OpenCV, and dlib </p>
