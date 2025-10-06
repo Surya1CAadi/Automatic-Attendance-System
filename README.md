@@ -1,6 +1,3 @@
-<p align="center">
-  Automatic Face Attendance System Banner
-</p>
 
 <h1 align="center">Automatic Face Attendance System</h1>
 
