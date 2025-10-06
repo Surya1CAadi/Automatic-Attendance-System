@@ -121,30 +121,37 @@ automatic_attendance_system/
 
 <p align="center">
 🏠 Home Page
+<br>
 <img src="./screenshots/home_page.png" width="600"><br>
 </p>
 <p align="center">
 📋 Main Page
+<br>
 <img src="./screenshots/main_page.png" width="600"><br>
 </p>
 <p align="center">
 🔐 Reset Password
+<br>
 <img src="./screenshots/reset_password.png" width="600"><br>
 </p>
 <p align="center">
 🧑‍🎓 Register Student
+<br>
 <img src="./screenshots/register_student.png" width="600"> <br><img src="./screenshots/student_register_image.png" width="600"><br>
 </p>
 <p align="center">
 ✅ Attendance Taking
+<br>
 <img src="./screenshots/attendance_page.png" width="600"><br>
 </p>
 <p align="center">
 🧾 Creating Course
+<br>
 <img src="./screenshots/create_course.png" width="600"><br>
 </p>
 <p align="center">
 📧 Sending Mail
+<br>
 <img src="./screenshots/sending_mail.png" width="600"><br>
 </p>
 
