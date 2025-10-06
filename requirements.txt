@@ -1,0 +1,9 @@
+pyttsx3
+python-dotenv
+opencv-python
+dlib
+numpy
+Pillow
+openpyxl
+pandas
+xlrd
