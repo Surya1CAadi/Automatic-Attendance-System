@@ -151,6 +151,11 @@ automatic_attendance_system/
 <br>
 <img src="./screenshots/sending_mail.png" width="600"><br>
 </p>
+<p align="center">
+📧 Sample Mail
+<br>
+<img src="./screenshots/sample_email.png" width="600"><br>
+</p>
 
 ---
 
