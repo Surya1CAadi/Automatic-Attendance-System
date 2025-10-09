@@ -177,7 +177,6 @@ automatic_attendance_system/
 | Course-wise XLS Generation      | ✅         | ❌                | ❌     | Some            |
 | Voice Announcement              | ✅         | ❌                | ❌     | ❌              |
 | Secure Local Storage            | ✅         | ✅                | ✅     | ❌              |
-| Real-Time Email Reporting       | ✅         | Manual            | Manual | ✅              |
 | Auto-Deletion of Student Images | ✅         | N/A               | N/A    | ❌              |
 | Proxy Prevention (Anti-fraud)   | ✅         | ✅                | N/A    | N/A             |
 
