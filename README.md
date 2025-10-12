@@ -29,7 +29,7 @@
 
 ---
 
-## 🚀 Features
+## Features
 
 - **Raspberry Pi Compatible:** Lightweight, portable, and cost-effective. Works perfectly on Raspberry Pi 4 Model B.
 - **Face Recognition using dlib (128D Facial Features):** High accuracy, privacy-focused (no cloud storage).
@@ -114,7 +114,7 @@ automatic_attendance_system/
 
 ---
 
-🖼️ Screenshots
+## Screenshots
 
 <p align="center">
 🏠 Home Page
@@ -159,7 +159,7 @@ automatic_attendance_system/
 
 ---
 
-🔐 Environment Variables (.env)
+## Environment Variables (.env)
 
 | Variable       | Description                        |
 | -------------- | ---------------------------------- |
