@@ -111,6 +111,7 @@ automatic_attendance_system/
    - Register Student: Capture and save multiple face angles.
    - Take Attendance: Detect faces and mark present students in course-wise XLS.
    - Send Attendance Report: Email attendance file to the specified address.
+   - Create Course: Add new courses for attendance tracking.
 
 ---
 
