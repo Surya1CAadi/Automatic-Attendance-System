@@ -85,8 +85,8 @@ automatic_attendance_system/
 1. Clone the repository
 
    ```bash
-   git clone https://github.com/your-username/automatic_attendance_system.git
-   cd automatic_attendance_system
+   git clone https://github.com/your-username/AutoAttend.git
+   cd AutoAttend
    ```
 
 2. Install the dependencies
