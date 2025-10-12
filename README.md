@@ -56,7 +56,6 @@ automatic_attendance_system/
 ├── mailing_xls_attendance_file.py
 │
 ├── xls_attendance/
-│   ├── __init__.py
 │   ├── marking_attendance_in_xls.py
 │   ├── voice_call_of_name.py
 │   └── xls_file_creator.py
