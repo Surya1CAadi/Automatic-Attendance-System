@@ -36,7 +36,7 @@
 - **Automatic Attendance Marking:** Attendance saved in `.xls` files course-wise with timestamps.
 - **Student Registration UI:** Capture multiple face angles and store them locally.
 - **Course-Wise Attendance Management:** Create and manage separate XLS files for each course.
-- **Email Attendance Files:** Directly send attendance reports via email without manual transfer.
+- **Email Attendance Files:** Supports manual sending of attendance reports via built-in email integration.
 - **Voice Announcements:** Announces registration numbers of present students for manual verification.
 - **Auto-Deletion of Images:** Enhances privacy by deleting images after feature extraction.
 - **Basic GUI:** Tkinter-based, suitable for non-technical users.
