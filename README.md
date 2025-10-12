@@ -15,7 +15,7 @@
 
 ---
 
-## 📑 Table of Contents
+## Table of Contents
 
 - [Features](#features)
 - [Project Structure](#project-structure)
